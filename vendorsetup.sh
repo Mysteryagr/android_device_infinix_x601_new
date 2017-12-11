@@ -1,3 +1,4 @@
+
 #
 # Copyright 2013 The Android Open Source Project
 #
@@ -14,8 +15,8 @@
 # limitations under the License.
 #
 
-for flavor in eng userdebug user; do
-    add_lunch_combo "dot_X601-${flavor}"
+for var in eng userdebug user; do
+    add_lunch_combo dot_X601-$var
 done
 
 
