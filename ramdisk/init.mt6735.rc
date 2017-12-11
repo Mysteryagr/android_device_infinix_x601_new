@@ -143,7 +143,7 @@ on post-fs-data
     write /proc/bootprof "INIT:post-fs-data"
     chown system system /persist
     chmod 0771 /persist
-    #lenovo-sw jixj 2015.10.12 add for restore persist selinux
+    #Infinix-sw jixj 2015.10.12 add for restore persist selinux
     restorecon /persist
 
     # create basic filesystem structure
@@ -655,12 +655,12 @@ on boot
     chmod 0660 /sys/power/autosleep
 
     chmod 0664 /sys/class/leds/lcd-backlight/brightness
-#lenovo.sw START wangsx3 add for leds sys node
+#Infinix.sw START wangsx3 add for leds sys node
     chmod 0666 /sys/class/leds/flash/brightness
     chmod 0666 /sys/class/leds/torch/brightness
     chown system system /sys/class/leds/torch/brightness
     chown system system /sys/class/leds/flash/brightness
-#lenovo.sw END wangsx3 add for leds sys node
+#Infinix.sw END wangsx3 add for leds sys node
     chown system system /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
     chmod 0660 /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
     chown root   system /sys/kernel/debug/binder/transaction_log_enable
@@ -1047,13 +1047,13 @@ service akmd09911 /vendor/bin/akmd09911
     group system
     class main
 
-#lenovo-sw caoyi1 add begin
+#Infinix-sw caoyi1 add begin
 service mxg2320d /vendor/bin/mxg2320d
     disabled
     user system
     group system
     class main
-#lenovo-sw caoyi1 add end
+#Infinix-sw caoyi1 add end
 
 service bmm050d /vendor/bin/bmm050d
     disabled
@@ -1295,9 +1295,9 @@ service mediacodec /system/bin/mediacodec
     group media system audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm sdcard_r media_rw sdcard_rw
     ioprio rt 4
 
-#lenovo-sw, chenzz3, TEEI-P2, begin
+#Infinix-sw, chenzz3, TEEI-P2, begin
 service fingerprintd /system/bin/fingerprintd
     class main
     user system
     group system
-#lenovo-sw, chenzz3, TEEI-P2, end    
+#Infinix-sw, chenzz3, TEEI-P2, end    

@@ -595,11 +595,11 @@ on boot
     chown system system /sys/kernel/ipv4/tcp_rmem_max
     chown root radio /proc/cmdline
 
-    #lenovo-sw limm3 added for led sys node
+    #Infinix-sw limm3 added for led sys node
     chmod 0664 /sys/class/power_supply/battery/charging_led_flag
     chown system system /sys/class/power_supply/battery/charging_led_flag
     restorecon /sys/class/power_supply/battery/charging_led_flag
-    #lenovo-sw limm3 added for led sys node
+    #Infinix-sw limm3 added for led sys node
 
     # Define default initial receive window size in segments.
     setprop net.tcp.default_init_rwnd 60

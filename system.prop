@@ -118,4 +118,4 @@ ro.mtk_lte_support=1
 # FRP
 #ro.frp.pst=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp
 
-ro.patcher.device=A7010a48
+ro.patcher.device=X601

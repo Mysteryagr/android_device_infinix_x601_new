@@ -1,14 +1,14 @@
 [
   {
     "remote": "github",
-    "repository": "dg28gadhavi/android_vendor_lenovo_A7010a48",
-    "target_path": "vendor/lenovo/A7010a48",
+    "repository": "dg28gadhavi/android_vendor_Infinix_X601",
+    "target_path": "vendor/Infinix/X601",
     "branch": "los-14.1"
   },
   {
     "remote": "github",
-    "repository": "dg28gadhavi/android_kernel_lenovo_A7010a48",
-    "target_path": "kernel/lenovo/A7010a48",
+    "repository": "dg28gadhavi/android_kernel_Infinix_X601",
+    "target_path": "kernel/Infinix/X601",
     "branch": "negative"
   }
 ] 

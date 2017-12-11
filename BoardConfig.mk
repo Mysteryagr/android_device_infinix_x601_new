@@ -1,5 +1,5 @@
 # mt6753 platform boardconfig
-LOCAL_PATH := device/lenovo/A7010a48
+LOCAL_PATH := device/Infinix/X601
 
 MTK_PROJECT_CONFIG ?= $(LOCAL_PATH)/ProjectConfig.mk
 include $(MTK_PROJECT_CONFIG)
@@ -57,7 +57,7 @@ MTK_KERNEL_PREBUILD:=no
 ifneq ($(MTK_KERNEL_PREBUILD),yes)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := k5fpr_defconfig
-TARGET_KERNEL_SOURCE := kernel/lenovo/A7010a48
+TARGET_KERNEL_SOURCE := kernel/Infinix/X601
 else
 # Hack for build
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
@@ -122,7 +122,7 @@ TARGET_KMODULES := true
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
 
 # Display
-BOARD_EGL_CFG := /vendor/lenovo/A7010a48/vendor/lib/egl/egl.cfg
+BOARD_EGL_CFG := /vendor/Infinix/X601/vendor/lib/egl/egl.cfg
 USE_OPENGL_RENDERER:=true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
@@ -190,7 +190,7 @@ BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
 
 # RIL
 SIM_COUNT := 2
-BOARD_RIL_CLASS := ../../../device/lenovo/A7010a48/ril
+BOARD_RIL_CLASS := ../../../device/Infinix/X601/ril
 
 # Wireless
 BOARD_WLAN_DEVICE := MediaTek
@@ -225,10 +225,10 @@ TARGET_NO_RECOVERY := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/lenovo/A7010a48/sepolicy
+    device/Infinix/X601/sepolicy
     
 # Seccomp filter
-BOARD_SECCOMP_POLICY += device/lenovo/A7010a48/seccomp
+BOARD_SECCOMP_POLICY += device/Infinix/X601/seccomp
     
 # Graphics
 MTK_GPU_VERSION := mali midgard r12p1

@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lenovo/A7010a48
+LOCAL_PATH := device/Infinix/X601
 
 MTK_PROJECT_CONFIG ?= $(LOCAL_PATH)/ProjectConfig.mk
 include $(MTK_PROJECT_CONFIG)
@@ -24,7 +24,7 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalv
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/lenovo/A7010a48/A7010a48-vendor-blobs.mk)
+$(call inherit-product, vendor/Infinix/X601/X601-vendor-blobs.mk)
 
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
@@ -109,7 +109,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_RECOVERY_FSTAB := device/lenovo/A7010a48/ramdisk/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/Infinix/X601/ramdisk/recovery.fstab
 
 # RAMDISK
 PRODUCT_COPY_FILES += \

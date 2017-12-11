@@ -12,13 +12,13 @@ BUILD_UBOOT = no
 CMCC_LIGHT_CUST_SUPPORT = no
 CUSTOM_BUILD_VERNO =
 CUSTOM_CONFIG_MAX_DRAM_SIZE = 0x100000000
-#lenovo sw chengx2 modify for wcn
+#Infinix sw chengx2 modify for wcn
 CUSTOM_HAL_ANT = mt6630_ant_m1
 CUSTOM_HAL_AUDIOFLINGER = audio
 CUSTOM_HAL_BLUETOOTH = bluetooth
 CUSTOM_HAL_CAMERA = camera
 CUSTOM_HAL_CAM_CAL = dummy_eeprom
-#lenovo_sw chengx2 modify for wcn
+#Infinix_sw chengx2 modify for wcn
 CUSTOM_HAL_COMBO = mt6630
 CUSTOM_HAL_EEPROM = dummy_eeprom
 CUSTOM_HAL_FLASHLIGHT = dummy_flashlight
@@ -64,10 +64,10 @@ CUSTOM_KERNEL_SUB_BACKUP_LENS =  dummy_lens
 CUSTOM_KERNEL_SUB_LENS = dummy_lens
 CUSTOM_KERNEL_SUB_IMGSENSOR =ov5693_mipi_raw
 CUSTOM_KERNEL_RTC = rtc
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 #CUSTOM_KERNEL_SOUND = amp_6323pmic_spk
 CUSTOM_KERNEL_SOUND = 
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 CUSTOM_KERNEL_SSW = ssw_single_v2
 
 CUSTOM_KERNEL_TOUCHPANEL = GT1XX
@@ -114,9 +114,9 @@ MAXIM_SPEAKER_SUPPORT = no
 MD32_TOOLCHAIN_MODULE = IPDesigner/12R2.36-64
 MD5_SIZE = 0x01600000
 MD5_SMEM_SIZE = 0x00200000
-#lenovo-sw, chenzz3, TEEI-P1, begin
+#Infinix-sw, chenzz3, TEEI-P1, begin
 MICROTRUST_TEE_SUPPORT = yes
-#lenovo-sw, chenzz3, TEEI-P1, end
+#Infinix-sw, chenzz3, TEEI-P1, end
 MT6280_SUPER_DONGLE = no
 MTK_2IN1_SPK_SUPPORT = no
 MTK_2SDCARD_SWAP = no
@@ -154,12 +154,12 @@ MTK_AUDIO_DDPLUS_SUPPORT = no
 MTK_AUDIO_EXTCODEC_SUPPORT = no
 MTK_AUDIO_GAIN_TABLE_SUPPORT = no
 MTK_AUDIO_HD_REC_SUPPORT = yes
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 MTK_AUDIO_MIC_INVERSE = no
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
-#lenovo-sw heww3 close mtk audio profile begin
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw heww3 close mtk audio profile begin
 MTK_AUDIO_PROFILES = NO
-#lenovo-sw heww3 end
+#Infinix-sw heww3 end
 MTK_AUDIO_RAW_SUPPORT = yes
 MTK_AUDIO_TUNNELING_SUPPORT = no
 MTK_AUIDO_MIC_INVERSE = no
@@ -186,9 +186,9 @@ MTK_BQ24157_SUPPORT = no
 MTK_BQ24158_SUPPORT = no
 MTK_BQ24160_SUPPORT = no
 MTK_BQ24261_SUPPORT = no
-#lenovo-sw mahj2 modify for charging Begin
+#Infinix-sw mahj2 modify for charging Begin
 MTK_BQ24296_SUPPORT = yes
-#lenovo-sw mahj2 modify for charging End
+#Infinix-sw mahj2 modify for charging End
 MTK_BQ24297_SUPPORT = no
 MTK_BQ27541_SUPPORT = no
 MTK_BRANCH = alps-mp-m0.mp1
@@ -202,7 +202,7 @@ MTK_BT_BLUEDROID_A2DP_APTX = no
 MTK_BT_BLUEDROID_AVRCP_TG_15 = yes
 MTK_BT_BLUEDROID_HFP_AG_17 = yes
 MTK_BT_BLUEDROID_PLUS = yes
-#lenovo chengx2 modify for wcn 
+#Infinix chengx2 modify for wcn 
 MTK_BT_CHIP = MTK_MT6630
 MTK_BT_SUPPORT = yes
 MTK_BUFFER_COMPRESSION_SUPPORT = no
@@ -297,9 +297,9 @@ MTK_DRM_PLAYREADY_SUPPORT = no
 MTK_DSPIRDBG = no
 MTK_DTAG_DUAL_APN_SUPPORT = no
 MTK_DT_SUPPORT = no
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 MTK_DUAL_MIC_SUPPORT = yes
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 MTK_DVFS_DISABLE_LOW_VOLTAGE_SUPPORT = no
 MTK_DX_HDCP_SUPPORT = no
 MTK_DYNAMIC_SBP_SUPPORT = yes
@@ -401,9 +401,9 @@ MTK_HEART_RATE_MONITOR_SUPPORT = no
 MTK_HETCOMM_SUPPORT = yes
 MTK_HIGH_QUALITY_THUMBNAIL = yes
 MTK_HIGH_RESOLUTION_AUDIO_SUPPORT = yes
-#begin, lenovo-sw liyuan8 20160226,remove hotknot feature
+#begin, Infinix-sw liyuan8 20160226,remove hotknot feature
 MTK_HOTKNOT_SUPPORT = no
-#end, lenovo-sw liyuan8 20160226,remove hotknot feature
+#end, Infinix-sw liyuan8 20160226,remove hotknot feature
 MTK_HUIYOU_SYJT_APP = no
 MTK_HUIYOU_WABAOJINGYING_APP = no
 MTK_HW_ENHANCE = no
@@ -413,7 +413,7 @@ MTK_ICUSB_SUPPORT = no
 MTK_IDC_SUPPORT = no
 MTK_IMAGE_LARGE_MEM_LIMIT = no
 MTK_IMS_SUPPORT = no 
-#lenovo-sw zhouwl,2016-1-22,audio change,sync to koloes android L
+#Infinix-sw zhouwl,2016-1-22,audio change,sync to koloes android L
 MTK_INCALL_HANDSFREE_DMNR = yes
 MTK_INCALL_NORMAL_DMNR = yes
 MTK_INCLUDE_MODEM_DB_IN_IMAGE = no
@@ -444,9 +444,9 @@ MTK_JPEG_HW_RESIZER_TYPE = HW_RESIZER_TYPE_2
 MTK_KERNEL_POWER_OFF_CHARGING = yes
 MTK_LAUNCHER_UNREAD_SUPPORT = yes
 MTK_LCEEFT_SUPPORT = yes
-#lenovo-sw wengjun,2015-12-31,modify for lcd support begin
+#Infinix-sw wengjun,2015-12-31,modify for lcd support begin
 MTK_LCM_DEVICE_TREE_SUPPORT = no
-#lenovo-sw wengjun,2015-12-31,modify for lcd support end
+#Infinix-sw wengjun,2015-12-31,modify for lcd support end
 MTK_LCM_PHYSICAL_ROTATION = 0
 MTK_LIVEWALLPAPER_APP = yes
 MTK_LOCKSCREEN_TYPE = 0
@@ -462,7 +462,7 @@ MTK_MASS_STORAGE = yes
 MTK_MATV_ANALOG_SUPPORT = no
 MTK_MATV_SERIAL_IF_SUPPORT = no
 MTK_MAV_PLAYBACK_SUPPORT = yes
-#lenovo-sw zhangdy4 2016-03-28, load LTG default
+#Infinix-sw zhangdy4 2016-03-28, load LTG default
 MTK_MD1_SUPPORT = 5
 MTK_MD2_SUPPORT = 4
 MTK_MD3_SUPPORT = 2
@@ -499,7 +499,7 @@ MTK_MT8193_SUPPORT = no
 MTK_MTKLOGGER_SUPPORT = no
 MTK_MTKPS_PLAYBACK_SUPPORT = no
 MTK_MULTIBRIDGE_SUPPORT = no
-#lenovo.sw zengzm modify to no
+#Infinix.sw zengzm modify to no
 MTK_MULTICORE_OBSERVER_APP = no
 MTK_MULTISIM_RINGTONE_SUPPORT = no
 MTK_MULTI_LOG_SD = no
@@ -638,9 +638,9 @@ MTK_SUPPORT_MJPEG = no
 MTK_SVLTE_SUPPORT = no
 MTK_SWCHR_SUPPORT = no
 MTK_SWIP_WMAPRO = no
-#begin, lenovo-sw liyuan8 20160226,remove mtk ota feature
+#begin, Infinix-sw liyuan8 20160226,remove mtk ota feature
 MTK_SYSTEM_UPDATE_SUPPORT = no
-#end, lenovo-sw liyuan8 20160226,remove mtk ota feature
+#end, Infinix-sw liyuan8 20160226,remove mtk ota feature
 MTK_TABLET_PLATFORM = no
 MTK_TABLET_PLUGIN_BUILD = no
 MTK_TB_APP_CALL_FORCE_SPEAKER_ON = no
@@ -665,7 +665,7 @@ MTK_TTY_SUPPORT = no
 MTK_TVOUT_SUPPORT = no
 MTK_UART_USB_SWITCH = no
 MTK_ULTRA_DIMMING_SUPPORT = no
-#Begin lenovo linyf enable TDS, KOLEOSM-4
+#Begin Infinix linyf enable TDS, KOLEOSM-4
 MTK_UMTS_TDD128_MODE = no
 #End, KOLEOSM-4
 MTK_USB_AUDIO_SUPPORT = yes

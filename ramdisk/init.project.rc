@@ -50,10 +50,10 @@ on post-fs-data
     chmod 0660 /dev/DW9714AF
     chown system camera /dev/DW9714AF
 
-#lenovo-sw wuyt3 add 20150526 begin
+#Infinix-sw wuyt3 add 20150526 begin
     chmod 0660 /dev/S5K3M2_CAM_CAL_DRV
     chown system camera /dev/S5K3M2_CAM_CAL_DRV 
-#lenovo-sw wuyt3 add 20150526 end 
+#Infinix-sw wuyt3 add 20150526 end 
     
     chmod 0660 /dev/AD5820AF
     chown system camera /dev/AD5820AF
@@ -79,12 +79,12 @@ on post-fs-data
     chown system /dev/ttyGS1
    
 
-#lenovo-sw wuwl10 add 20160226 begin
-    chown system system /sys/lenovo_tp_gestures/tpd_suspend_status
-    chown system system /sys/lenovo_tp_gestures/tpd_glove_status
-#lenovo-sw wuwl10 add 20160226 end
+#Infinix-sw wuwl10 add 20160226 begin
+    chown system system /sys/Infinix_tp_gestures/tpd_suspend_status
+    chown system system /sys/Infinix_tp_gestures/tpd_glove_status
+#Infinix-sw wuwl10 add 20160226 end
 
-# lenovo-sw, chenzz3, TEEI-P2, begin
+# Infinix-sw, chenzz3, TEEI-P2, begin
 	mkdir /data/thh/tee_05/data 0777 system system
 	mkdir /data/thh/tee_05/data/fpc 0777 system system
 	mkdir /data/system/users 0777 system system
@@ -125,7 +125,7 @@ on post-fs-data
 	chmod 0664 /sys/bus/spi/devices/spi0.1/clk_enable
 	chmod 0664 /sys/bus/spi/devices/spi0.1/irq
     chmod 0664 /sys/bus/spi/devices/spi0.1/navigation_event
-# lenovo-sw, chenzz3, TEEI-P2, end
+# Infinix-sw, chenzz3, TEEI-P2, end
 	
     chmod 0666 /sys/bus/spi/devices/spi1.0/clk_enable
     chown system system /sys/bus/spi/devices/spi1.0/clk_enable
@@ -138,10 +138,10 @@ on post-fs-data
 	chmod 0775 /data/fpc
 	chown system system /data/fpc
 
-# lenovo-sw, chenzz3, configure permission for perftags device, begin
+# Infinix-sw, chenzz3, configure permission for perftags device, begin
     chown system system /dev/perftags
     chmod 0664 /dev/perftags
-# lenovo-sw, chenzz3, configure permission for perftags device, end
+# Infinix-sw, chenzz3, configure permission for perftags device, end
 
 # Lenovo-sw weimh1 add 2016-2-2 begin:add for Sensor calibration
     chown system system /persist/gsensor_cali_val_x
@@ -165,7 +165,7 @@ on post-fs-data
     restorecon /sys/bus/platform/drivers/gsensor/gsensor_cali_val_z
 # Lenovo-sw weimh1 add 2016-2-2 end
 
-# lenovo-sw, chenzz3, add permissions for sensor gyro-sensor calibration, begin
+# Infinix-sw, chenzz3, add permissions for sensor gyro-sensor calibration, begin
     chown system system /persist/gyroscope_cali_val_x
     chown system system /persist/gyroscope_cali_val_y
     chown system system /persist/gyroscope_cali_val_z
@@ -178,9 +178,9 @@ on post-fs-data
     chmod 0660 /sys/bus/platform/drivers/gyroscope/gyroscope_cali_val_x
     chmod 0660 /sys/bus/platform/drivers/gyroscope/gyroscope_cali_val_y
     chmod 0660 /sys/bus/platform/drivers/gyroscope/gyroscope_cali_val_z
-# lenovo-sw, chenzz3, add permissions for gyro-sensor calibration, end
+# Infinix-sw, chenzz3, add permissions for gyro-sensor calibration, end
 
-# lenovo-sw, chenzz3, add permissions for p-sensor calibration, begin
+# Infinix-sw, chenzz3, add permissions for p-sensor calibration, begin
     chown system system /persist/prox_threshold_hi
     chown system system /persist/prox_threshold_lo
     chown system system /sys/bus/platform/drivers/als_ps/cali_param_1
@@ -189,7 +189,7 @@ on post-fs-data
     chmod 0660 /persist/prox_threshold_lo
     chmod 0660 /sys/bus/platform/drivers/als_ps/cali_param_1
     chmod 0660 /sys/bus/platform/drivers/als_ps/cali_param_2
-# lenovo-sw, chenzz3, add permissions for p-sensor calibration, end
+# Infinix-sw, chenzz3, add permissions for p-sensor calibration, end
 
 #
 # Connectivity related device nodes & configuration (end)
