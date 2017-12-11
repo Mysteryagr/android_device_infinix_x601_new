@@ -3,13 +3,13 @@
 # Release name
 PRODUCT_RELEASE_NAME := X601
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Dot OS stuff.
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/Infinix/X601/device_X601.mk)
 
-PRODUCT_NAME := lineage_X601
+PRODUCT_NAME := dot_X601
 PRODUCT_DEVICE := X601
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
