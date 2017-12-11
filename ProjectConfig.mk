@@ -289,9 +289,9 @@ MTK_DM_ENTRY_DISPLAY = no
 MTK_DOCOMO_SUPPORT = no
 MTK_DOLBY_DAP_SUPPORT = no
 MTK_DP_FRAMEWORK = yes
-#BEGIN Lenovo-sw guoyz3, 20160408, disable DRM app
+#BEGIN Infinix-sw guoyz3, 20160408, disable DRM app
 MTK_DRM_APP = no
-#END Lenovo-sw guoyz3, 20160408, disable DRM app
+#END Infinix-sw guoyz3, 20160408, disable DRM app
 MTK_DRM_KEY_MNG_SUPPORT = no
 MTK_DRM_PLAYREADY_SUPPORT = no
 MTK_DSPIRDBG = no
@@ -545,10 +545,10 @@ MTK_PASSPOINT_R2_SUPPORT = no
 MTK_PCA9575A_SUPPORT = no
 MTK_PCB_BATTERY_SENSOR = no
 MTK_PERFSERVICE_SUPPORT = yes
-#Lenovo-sw quebs2 modified 20160229 begin, disable MTK permisison mechanism
+#Infinix-sw quebs2 modified 20160229 begin, disable MTK permisison mechanism
 #MTK_PERMISSION_CONTROL = yes
 MTK_PERMISSION_CONTROL = yes
-#Lenovo-sw quebs2 modified 20160229 end, disable MTK permisison mechanism
+#Infinix-sw quebs2 modified 20160229 end, disable MTK permisison mechanism
 MTK_PERSIST_PARTITION_SUPPORT = yes
 MTK_PHONE_VT_VOICE_ANSWER = no
 MTK_PLATFORM = MT6735
@@ -595,10 +595,10 @@ MTK_SDIOAUTOK_SUPPORT = yes
 MTK_SEARCH_DB_SUPPORT = yes
 MTK_SEC_MODEM_AUTH = no
 MTK_SEC_MODEM_ENCODE = no
-#Lenovo-sw quebs2 modified 20150510 begin,enable secure boot
+#Infinix-sw quebs2 modified 20150510 begin,enable secure boot
 MTK_SEC_SECRO_AC_SUPPORT = yes
 #MTK_SEC_SECRO_AC_SUPPORT = no
-#Lenovo-sw quebs2 modified 20150510 end,enable secure boot
+#Infinix-sw quebs2 modified 20150510 end,enable secure boot
 MTK_SEC_VIDEO_PATH_SUPPORT = no
 MTK_SEC_WFD_VIDEO_PATH_SUPPORT = no
 MTK_SEND_RR_SUPPORT = yes
@@ -679,13 +679,13 @@ MTK_VIDEO_HEVC_SUPPORT = no
 MTK_VIDEO_THUMBNAIL_PLAY_SUPPORT = yes
 MTK_VIDEO_VP8ENC_SUPPORT = no
 MTK_VILTE_SUPPORT = no
-#Lenovo wuzb1 modify 2016-03-07 begin, removed mtk voice command apk
+#Infinix wuzb1 modify 2016-03-07 begin, removed mtk voice command apk
 MTK_VOICE_CONTACT_SEARCH_SUPPORT = no
 MTK_VOICE_INTERFACE_EXTENSION_SUPPORT = no
 MTK_VOICE_UI_SUPPORT = no
 MTK_VOICE_UNLOCK_SUPPORT = no
 MTK_VOICE_UNLOCK_USE_TAB_LIB = no
-#Lenovo wuzb1 modify 2016-03-07 end, removed mtk voice command apk
+#Infinix wuzb1 modify 2016-03-07 end, removed mtk voice command apk
 MTK_VOIP_ENHANCEMENT_SUPPORT = yes
 MTK_VOIP_HANDSFREE_DMNR = no
 MTK_VOIP_NORMAL_DMNR = no
