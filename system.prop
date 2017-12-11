@@ -16,9 +16,6 @@ wifi.direct.interface=p2p0
 ro.sf.lcd_density=480
 persist.sys.lcd_density=480
 
-#keys
-ro.build.tags=release-keys
-
 ro.opengles.version=196609
 
 # USB MTP WHQL
@@ -44,7 +41,7 @@ ro.zygote.preload.enable=0
 
 persist.sys.strictmode.visual=0
 persist.sys.strictmode.disable=1
-#ro.boot.selinux=disable
+ro.boot.selinux=disable
 #ro.carrier=unknown
 
 # Disable dirty region for Mali
@@ -57,18 +54,18 @@ ro.mtk_perf_fast_start_win=1
 ro.mtk_perf_response_time=1
 
 ro.mediatek.chip_ver=S01
-ro.mediatek.version.release=alps-mp-n1.mp1-V1_k5fpr.65.n1
+ro.mediatek.version.release=alps-mp-n1.mp1-V1_rlk6753.65.n1
 ro.mediatek.version.branch=alps-mp-n1.mp1
 ro.mediatek.platform=MT6735
 ro.mediatek.version.sdk=4
-persist.mtk.wcn.combo.chipid=0x6630
+persist.mtk.wcn.combo.chipid=1
 ro.sf.hwrotation=0
 
 # temporary enables NAV bar (soft keys)
-qemu.hw.mainkeys=1
+qemu.hw.mainkeys=0
 
-mediatek.wlan.chip=MT6630
-mediatek.wlan.module.postfix=_mt6630
+mediatek.wlan.chip=CONSYS_MT6735
+mediatek.wlan.module.postfix=_consys_mt6735
 ##
 
 ro.mtk_gps_support=1
@@ -118,4 +115,4 @@ ro.mtk_lte_support=1
 # FRP
 #ro.frp.pst=/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/frp
 
-ro.patcher.device=X601
+ro.patcher.device=X601-LTE
